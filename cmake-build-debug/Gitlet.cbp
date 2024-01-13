@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Gitlet"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\opt\;CMake Files\..\..\..\opt\homebrew\;CMake Files\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\opt\homebrew\lib\cmake\Boost-1.84.0\;CMake Files\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.84.0\;CMake Files\..\..\..\opt\homebrew\lib\cmake\boost_serialization-1.84.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/fr0m_scratch/gitlet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gitlet">
+				<Option output="/Users/fr0m_scratch/gitlet/cmake-build-debug/Gitlet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fr0m_scratch/gitlet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add directory="/opt/homebrew/Cellar/openssl@3/3.2.1/include"/>
+					<Add directory="/Users/fr0m_scratch/gitlet/cmake-build-debug"/>
+					<Add directory="/Users/fr0m_scratch/gitlet/src"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gitlet"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gitlet/fast">
+				<Option output="/Users/fr0m_scratch/gitlet/cmake-build-debug/Gitlet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fr0m_scratch/gitlet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add directory="/opt/homebrew/Cellar/openssl@3/3.2.1/include"/>
+					<Add directory="/Users/fr0m_scratch/gitlet/cmake-build-debug"/>
+					<Add directory="/Users/fr0m_scratch/gitlet/src"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gitlet/fast"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/fr0m_scratch/gitlet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/fr0m_scratch/gitlet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/fr0m_scratch/gitlet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/fr0m_scratch/gitlet/src/Commit.cpp">
+			<Option target="Gitlet"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/src/Commit.h">
+			<Option target="Gitlet"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/src/Repo.cpp">
+			<Option target="Gitlet"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/src/Repo.h">
+			<Option target="Gitlet"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/src/StagingArea.cpp">
+			<Option target="Gitlet"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/src/StagingArea.h">
+			<Option target="Gitlet"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/src/Utils.cpp">
+			<Option target="Gitlet"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/src/Utils.h">
+			<Option target="Gitlet"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/src/main.cpp">
+			<Option target="Gitlet"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/BoostDetectToolset-1.84.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/Boost-1.84.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\Boost-1.84.0\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/Boost-1.84.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\Boost-1.84.0\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/boost_headers-1.84.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.84.0\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/boost_headers-1.84.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.84.0\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/boost_serialization-1.84.0/boost_serialization-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\boost_serialization-1.84.0\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/boost_serialization-1.84.0/boost_serialization-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\boost_serialization-1.84.0\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/boost_serialization-1.84.0/libboost_serialization-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\boost_serialization-1.84.0\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/boost_serialization-1.84.0/libboost_serialization-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\boost_serialization-1.84.0\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/boost_serialization-1.84.0/libboost_serialization-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\boost_serialization-1.84.0\"/>
+		</Unit>
+		<Unit filename="/Users/fr0m_scratch/gitlet/../../../opt/homebrew/lib/cmake/boost_serialization-1.84.0/libboost_serialization-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\homebrew\lib\cmake\boost_serialization-1.84.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

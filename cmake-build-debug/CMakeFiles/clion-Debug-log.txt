@@ -1,0 +1,27 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/fr0m_scratch/gitlet -B /Users/fr0m_scratch/gitlet/cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- The C compiler identification is AppleClang 15.0.0.15000100
+-- The CXX compiler identification is AppleClang 15.0.0.15000100
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /opt/homebrew/lib/cmake/Boost-1.84.0/BoostConfig.cmake (found suitable version "1.84.0", minimum required is "1.65") found components: serialization 
+-- Found OpenSSL: /opt/homebrew/Cellar/openssl@3/3.2.1/lib/libcrypto.dylib (found version "3.2.1")  
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/fr0m_scratch/gitlet/cmake-build-debug
